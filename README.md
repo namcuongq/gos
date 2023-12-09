@@ -38,6 +38,10 @@ EXAMPLES:
 
 Use "gos <option> --h" for more information about a option.
 ```
+## Example
+Race Condition: [req.txt](https://raw.githubusercontent.com/namcuongq/gos/main/example/req.txt) . You can copy it from burpsuite
+
+
 ## Download
 
 [gos.exe](https://github.com/namcuongq/gos/releases)
