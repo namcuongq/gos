@@ -30,11 +30,13 @@ Options:
         mail    Testing for Email Phishing
         ssh     Brute-Force SSH
         ldap    Brute-Force LDAP
+        tcp     TCP Forward Port
 EXAMPLES:
         gos race -r req.txt -p http://burp:8080 -w 10 -ssl
-        gos mail --from support@gmail.com --to victim@company.org --attach passwd.txt --attach-name "../etc/passwd"        
+        gos mail --from support@gmail.com --to victim@company.org --attach passwd.txt --attach-name "../etc/passwd"
         gos ssh -H hosts.txt -P pass.txt -u admin
         gos ldap -s 10.10.10.1 -P pass.txt -u admin -d example.com
+        gos tcp -s 192.168.0.10:3389 -d 10.10.10.1:3389
 
 Use "gos <option> --h" for more information about a option.
 ```
